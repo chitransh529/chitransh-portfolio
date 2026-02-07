@@ -16,7 +16,7 @@ A modern and responsive personal portfolio website built to showcase my skills, 
 - CSS
 
 ## 🚀 Live Demo
-https://chitransh-portfolio-aipe21ux4-chitranshs-projects-79664c6f.vercel.app
+https://chitransh-portfolio-e363cf.netlify.app/
 
 
 ## 📌 About
