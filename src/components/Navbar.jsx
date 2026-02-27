@@ -6,13 +6,9 @@ import '../styles/Navbar.css';
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('hero');
-  const [scrolled, setScrolled] = useState(false);
+
 
   useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 50);
-    };
-
     // Active Section Observer
     const sections = document.querySelectorAll('section');
     const observer = new IntersectionObserver(
@@ -27,10 +23,10 @@ const Navbar = () => {
     );
 
     sections.forEach((section) => observer.observe(section));
-    window.addEventListener('scroll', handleScroll);
+
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+
       sections.forEach((section) => observer.unobserve(section));
     };
   }, []);
