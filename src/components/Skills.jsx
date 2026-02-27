@@ -13,7 +13,7 @@ const skillsData = [
             { name: "JavaScript", url: "https://cdn.simpleicons.org/javascript/00f3ff" },
             { name: "SQL", url: "https://cdn.simpleicons.org/mysql/00f3ff" },
             { name: "HTML5", url: "https://cdn.simpleicons.org/html5/00f3ff" },
-            { name: "CSS3", url: "https://cdn.simpleicons.org/css3/00f3ff" },
+            { name: "CSS3", url: "https://cdn.simpleicons.org/css/00f3ff" },
             { name: "Python", url: "https://cdn.simpleicons.org/python/00f3ff" }
         ]
     },
@@ -42,8 +42,7 @@ const skillsData = [
         icon: <Database size={30} />,
         color: "#00ff9d",
         items: [
-            { name: "MongoDB", url: "https://cdn.simpleicons.org/mongodb/00ff9d" },
-            { name: "MySQL", url: "https://cdn.simpleicons.org/mysql/00ff9d" }
+            { name: "MongoDB", url: "https://cdn.simpleicons.org/mongodb/00ff9d" }
         ]
     },
     {
@@ -53,7 +52,7 @@ const skillsData = [
         items: [
             { name: "Git", url: "https://cdn.simpleicons.org/git/ff0055" },
             { name: "GitHub", url: "https://cdn.simpleicons.org/github/ff0055" },
-            { name: "VS Code", url: "https://cdn.simpleicons.org/visualstudiocode/ff0055" }
+            { name: "VS Code", url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" }
         ]
     }
 ];
