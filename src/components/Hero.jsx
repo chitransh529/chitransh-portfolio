@@ -91,8 +91,8 @@ const Hero = () => {
                     >
                         <div className="hero-image-wrapper">
                             <img
-                                src="https://images.unsplash.com/photo-1629654297299-c8506221ca97?q=80&w=1974&auto=format&fit=crop"
-                                alt="Cyberpunk Coder"
+                                src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2070&auto=format&fit=crop"
+                                alt="Modern Developer Studio"
                                 className="hero-image"
                             />
                             <div className="hero-glow-effect"></div>

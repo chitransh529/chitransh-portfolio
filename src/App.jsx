@@ -7,6 +7,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Certifications from './components/Certifications';
 import Contact from './components/Contact';
+import Background3D from './components/Background3D';
 
 function App() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
@@ -42,6 +43,7 @@ function App() {
 
   return (
     <div className="app">
+      <Background3D />
       <div
         className="cursor-glow"
         style={{

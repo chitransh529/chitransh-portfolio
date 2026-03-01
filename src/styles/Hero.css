@@ -79,13 +79,17 @@
 
 .hero-name {
     font-size: 5rem;
-    line-height: 1;
+    line-height: 1.1;
     margin-bottom: 20px;
+    font-weight: 700;
+    letter-spacing: -0.03em;
 }
 
 .hero-role {
     font-size: 2.2rem;
     margin-bottom: 30px;
+    font-weight: 500;
+    letter-spacing: -0.01em;
 }
 
 .hero-tagline {
