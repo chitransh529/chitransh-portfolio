@@ -18,13 +18,7 @@ const certifications = [
         link: "#",
         date: "2024"
     },
-    {
-        title: "Cybersecurity Foundation",
-        issuer: "Palo Alto Networks",
-        description: "Learnings: Fundamentals of cybersecurity, network security, threat detection, and risk mitigation.",
-        link: "#",
-        date: "2024"
-    },
+
     {
         title: "Introduction to MongoDB",
         issuer: "MongoDB",
